@@ -1,5 +1,5 @@
 {
-  "name": "express-schema-validator",
+  "name": "eschima-validator",
   "version": "0.0.1",
   "description": "JSON Schema validator for express",
   "main": "index.js",

@@ -1,4 +1,4 @@
-# express-schema-validator
+# eschima-validator
 
 > a simple json schema validators using ajv and ajv-errors
 
@@ -7,13 +7,13 @@
 To install and set up the library, run:
 
 ```sh
-$ npm install express-schema-validator
+$ npm install eschima-validator
 ```
 
 ## Usage
 
 ```
-const schemaValidator = require("express-schema-validator");
+const eschemaValidator = require("eschima-validator");
 
 // Define Schema
 const schema = {
@@ -34,8 +34,8 @@ const schema = {
   },
 };
 
-const detailedValidator = new schemaValidator(schema);
-const simpleValidator = new schemaValidator(schema, {
+const detailedValidator = new eschemaValidator(schema);
+const simpleValidator = new eschemaValidator(schema, {
   details: false,
 });
 
