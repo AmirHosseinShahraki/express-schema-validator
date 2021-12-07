@@ -1,0 +1,26 @@
+{
+  "name": "express-schema-validator",
+  "version": "0.0.1",
+  "description": "JSON Schema validator for express",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.js"
+  },
+  "keywords": [
+    "JSON",
+    "JSONSchema",
+    "json-schema",
+    "json-schema-validator",
+    "express-json-schema",
+    "validator",
+    "validation",
+    "middleware",
+    "express"
+  ],
+  "author": "AmirHossein Shahraki",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.8.2",
+    "ajv-errors": "^3.0.0"
+  }
+}
